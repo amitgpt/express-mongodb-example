@@ -1,6 +1,6 @@
 # express-mongodb-example
 
-nmp install
+npm install
 
 Run this :
  nodemon index.js
