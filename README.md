@@ -23,13 +23,13 @@ Create a new products.
 + Body:
 
 ```js
-		{
-			"title":"Product_Name",
-			"price":"500",
-			"instock":"true",
-			"photo":"null"
-		}
-		```
+{
+	"title":"Product_Name",
+	"price":"500",
+	"instock":"true",
+	"photo":"null"
+}
+```
 
 ### GET `/api/products/:products`
 
@@ -47,13 +47,13 @@ Update entire item with specific id.
 + URL: `/api/products/product_id`
 + Body:
 ```js
-		{
-			"title":"Product_Name",
-			"price":"500",
-			"instock":"true",
-			"photo":"null"
-		}
-		```
+{
+	"title":"Product_Name",
+	"price":"500",
+	"instock":"true",
+	"photo":"null"
+}
+```
 
 
 ### DELETE /api/product/:product_id
