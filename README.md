@@ -1,6 +1,6 @@
 # express-mongodb-example
 
-RESTful API with Node.js, Express.js, Mongoose and MongoDB.
+#RESTful API with Node.js, Express.js, Mongoose and MongoDB.
 
 Example of a RESTful API built with Node.js, Express.js, Mongoose and MongoDB.
 
@@ -55,7 +55,7 @@ URL: /api/product/product_id
 Install
 npm install
 
-Run
+#Run
 Make sure MongoDB is running, if not: sudo ~/mongodb/bin/mongod (assuming you have ~/mongodb directory).
 nodemon index.js
 
