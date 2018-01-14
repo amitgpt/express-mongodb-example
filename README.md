@@ -22,14 +22,14 @@ Create a new products.
 + URL: `/api/products`
 + Body:
 
-```js
+`js
 {
 	"title":"Product_Name",
 	"price":"500",
 	"instock":"true",
 	"photo":"null"
 }
-```
+`
 
 ### GET `/api/products/:products`
 
@@ -46,14 +46,14 @@ Update entire item with specific id.
 + Method: `PUT`
 + URL: `/api/products/product_id`
 + Body:
-```js
+`js
 {
 	"title":"Product_Name",
 	"price":"500",
 	"instock":"true",
 	"photo":"null"
 }
-```
+`
 
 
 ### DELETE /api/product/:product_id
